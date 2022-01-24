@@ -1,16 +1,33 @@
 {
-  "name": "record-auto-save",
+  "name": "datocms-plugin-record-auto-save",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Auto-save your records after a time interval",
+  "homepage": "https://github.com/marcelofinamorvieira/datocms-plugin-record-auto-save#readme",
+  "keywords": [
+    "datocms",
+    "datocms-plugin",
+    "record",
+    "save",
+    "automation"
+  ],
+  "datoCmsPlugin": {
+    "title": "Record auto-save",
+    "previewImage": "docs/demo.gif",
+    "coverImage": "docs/cover.jpg",
+    "entryPoint": "build/index.html",
+    "permissions": []
+  },
   "dependencies": {
     "@types/node": "^16.11.21",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "datocms-plugin-sdk": "^0.5.0",
-    "datocms-react-ui": "^0.5.0",
+    "datocms-react-ui": "0.3.34",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-select": "^5.2.2",
     "typescript": "^4.5.4"
   },
   "scripts": {
@@ -39,11 +56,5 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
-  },
-  "datoCmsPlugin": {
-    "title": "",
-    "previewImage": "",
-    "coverImage": "",
-    "entryPoint": "build/index.html"
   }
 }
