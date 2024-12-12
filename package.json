@@ -1,6 +1,6 @@
 {
   "name": "datocms-plugin-record-auto-save",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": false,
   "description": "Auto-save your records after a time interval",
   "homepage": "https://github.com/marcelofinamorvieira/datocms-plugin-record-auto-save#readme",
@@ -14,7 +14,7 @@
   "datoCmsPlugin": {
     "title": "Record auto-save",
     "previewImage": "docs/demo.mp4",
-    "coverImage": "docs/cover.jpg",
+    "coverImage": "docs/cover.png",
     "entryPoint": "build/index.html",
     "permissions": []
   },
